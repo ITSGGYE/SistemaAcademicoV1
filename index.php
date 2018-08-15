@@ -1,7 +1,5 @@
 <?php session_start();
- $conexion=mysqli_connect('',      '',
-                    '',
-                    ''); 
+ $conexion=mysqli_connect('','','',''); 
                     mysqli_query($conexion,"SET NAMES 'utf8'");?>
 
 <!DOCTYPE html>
