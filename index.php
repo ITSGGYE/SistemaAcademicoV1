@@ -1,8 +1,5 @@
 <?php session_start();
- $conexion=mysqli_connect('localhost',
-                    'root',
-                    '',
-                    'sistemaacademico'); 
+ $conexion=mysqli_connect('','','',''); 
                     mysqli_query($conexion,"SET NAMES 'utf8'");?>
 
 <!DOCTYPE html>
