@@ -3,8 +3,7 @@ session_start();
 if(!isset($_SESSION["profesor"]))
 {
  header("location:index.php");
- 
-}
+ }
 ?>  
 
 <meta charset="utf-8">
